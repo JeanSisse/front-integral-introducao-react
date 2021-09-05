@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e6eff5;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #2ab3b1;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #c0df33;
+  margin-bottom: 11px;
+}
+
+p {
+  font-size: 16px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.container {
+  font-family: "Karla", sans-serif;
+  max-width: 635px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+  border-radius: 8px;
+}
+
+.informe {
+  padding: 40px;
+}
+
+.informe p {
+  color: #9aa7be;
+}
+
+.price-per-month {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  margin-bottom: 4px;
+}
+
+.subscription {
+  display: flex;
+}
+
+.payment-info,
+.why-us {
+  padding: 40px;
+  flex-basis: 317px;
+}
+
+.payment-info {
+  background: #2ab3b1;
+}
+
+.why-us {
+  background: hsl(179, 62%, 47%);
+}
+
+.price span {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.per-month {
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.payment-info p {
+  font-weight: normal;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+
+.btn {
+  all: unset;
+  box-sizing: border-box;
+
+  background: #c0df33;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  border-radius: 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  padding: 15px 88px;
+}
+
+.why-us p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.75;
+  margin-top: 18px;
+}
