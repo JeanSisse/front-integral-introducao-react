@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: "Kumbh Sans", sans-serif;
+  min-height: 100vh;
+  background: url("./assets/background.jpg");
+}
+
+.card {
+  width: 350px;
+  background: #ffffff;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  border-radius: 15px;
+
+  text-align: center;
+}
+
+.top-card {
+  background: url("./assets/bg-pattern-card.svg");
+  border-radius: 15px 15px 0px 0px;
+}
+
+.display-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-card img {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  bottom: -55px;
+}
+
+.state {
+  margin-top: 10px;
+  margin-bottom: 28px;
+}
+.state span {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #6b7082;
+}
+
+.name-age {
+  margin-top: 73px;
+}
+
+.name-age p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-right: 9px;
+  color: #2e3349;
+}
+
+.name-age span {
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #6b7082;
+}
+
+.profile-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 50px;
+}
+
+.profile-stats p {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #2e3349;
+}
+
+.profile-stats span {
+  font-weight: normal;
+  font-size: 10px;
+  text-align: center;
+  color: #6b7082;
+}
+
+.card hr {
+  border: 1px solid #6b7082;
+  opacity: 0.3;
+}
